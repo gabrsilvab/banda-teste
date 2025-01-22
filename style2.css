@@ -1,0 +1,60 @@
+body {
+    background-color: #000212;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+.agenda-texto {
+    position: absolute;
+    text-align: center;
+    bottom: 820px;
+    left: 100px;
+    font-size: 38px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #EAECFF;
+  }
+  
+  .agenda-marcada {
+    position: absolute;
+    text-align: center;
+    bottom: 720px;
+    left: 100px;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #EAECFF;
+  }
+
+  .sobre {
+    position: absolute;
+    bottom: 650px;
+    left: 100px;
+    font-size: 28px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #EAECFF;
+  }
+
+  .platforms {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    align-items: center; /* Centraliza os logos horizontalmente */
+    gap: 20px; /* Espaçamento vertical entre as logos */
+}
+
+.platforms img {
+    width: 320px; /* Tamanho uniforme das imagens */
+    height: auto;
+    object-fit: contain; /* Ajusta o conteúdo da imagem sem distorção */
+    transition: transform 0.3s; /* Animação ao passar o mouse */
+
+}
+
+.platforms img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
